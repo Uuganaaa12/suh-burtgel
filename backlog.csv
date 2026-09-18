@@ -1,0 +1,16 @@
+﻿ID,User Story,Монгол тайлбар,Priority,Story Point,Status,Notes
+US-01,"As a resident, I want to log in with my phone number and password, so that only I can see my apartment data.","Оршин суугч утасны дугаар, нууц үгээрээ нэвтэрч, зөвхөн өөрийн сууцны мэдээллийг харна.",High,3,To do,Must have
+US-02,"As a manager, I want to register a resident and link them to an apartment, so that I know who lives in each unit.",Гүйцэтгэх захирал оршин суугчийг сууцтай нь холбож бүртгэнэ.,High,5,To do,Must have
+US-03,"As an owner, I want to register my tenant with a contract period, so that the tenant can use the system while renting.",Сууц өмчлөгч түрээслэгчээ гэрээний хугацаатай нь бүртгүүлнэ.,Medium,5,To do,
+US-04,"As a resident, I want to register my car with its plate number, so that the guard can recognise it at the gate.",Оршин суугч машинаа улсын дугаараар нь бүртгүүлнэ.,High,3,To do,Must have
+US-05,"As a manager, I want to approve new car registrations, so that only checked cars get access.",Гүйцэтгэх захирал шинэ машины бүртгэлийг баталгаажуулна.,High,2,To do,Must have
+US-06,"As a resident, I want to request a parking space, so that I can park my car in the yard.",Оршин суугч зогсоолын хүсэлт илгээнэ.,High,3,To do,Must have
+US-07,"As a resident, I want to see my position in the parking waiting list, so that I know when my turn comes.",Оршин суугч хүлээлгийн жагсаалтад хэддүгээрт байгаагаа харна.,Medium,1,To do,
+US-08,"As a manager, I want to assign a parking space to an apartment, so that spaces are shared in order of request.",Гүйцэтгэх захирал зогсоолыг сууцад хуваарилна.,High,5,To do,Must have
+US-09,"As a resident, I want to book a guest parking space for a chosen time, so that my visitor can park.",Оршин суугч зочиндоо тодорхой цагт зогсоол захиална.,Medium,5,To do,
+US-10,"As a resident, I want to get a one-time access code for my guest, so that the guard can let the guest in.",Оршин суугч зочиндоо нэг удаагийн нэвтрэх код авна.,Medium,3,To do,
+US-11,"As a guard, I want to check a car by its plate number, so that I can tell residents from strangers.",Харуул улсын дугаараар машиныг шалгана.,High,3,To do,Must have
+US-12,"As a guard, I want to record a parking violation with a photo, so that the manager can take action.",Харуул зөрчлийг зурагтай нь бүртгэнэ.,Low,5,To do,
+US-13,"As an accountant, I want to generate monthly invoices for all apartments, so that residents know what to pay.",Нягтлан бодогч сар бүрийн нэхэмжлэхийг үүсгэнэ.,High,8,To do,Must have
+US-14,"As a resident, I want to pay my invoice with QPay, so that I do not have to go to the office.",Оршин суугч нэхэмжлэхээ QPay-ээр төлнө.,High,8,To do,Must have
+US-15,"As a manager, I want to publish an announcement to residents, so that everyone gets the same information.",Гүйцэтгэх захирал оршин суугчдад зарлал нийтэлнэ.,Low,3,To do,
