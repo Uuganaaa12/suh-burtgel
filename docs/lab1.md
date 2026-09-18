@@ -49,6 +49,8 @@ git push origin main
 - README.md файл GitHub дээр харагдаж байна.
 - Commits хэсэгт анхны commit бүртгэгдсэн.
 
+Commit: `9eb83c3` — «Лаб 1: төслийн README болон баримт бичиг»
+
 *(Дэлгэцийн зургийг энд хавсаргана: repo-ийн нүүр хуудас, Commits жагсаалт.)*
 
 ## Гүйцэтгэлийн шалгуур
@@ -56,9 +58,9 @@ git push origin main
 - [x] VS Code, Git суурилуулсан
 - [x] GitLens суулгасан
 - [x] GitHub бүртгэл үүсгэсэн (Uuganaaa12)
-- [ ] GitHub дээр repository үүсгэсэн
-- [ ] Repository-г локал компьютер дээр clone хийсэн
+- [x] GitHub дээр repository үүсгэсэн
+- [x] Repository-г локал компьютер дээр clone хийсэн
 - [x] README.md файл үүсгэсэн
-- [ ] git add, git commit, git push хэрэглэсэн
-- [ ] GitHub дээр файл, commit харагдаж байна
+- [x] git add, git commit, git push хэрэглэсэн
+- [x] GitHub дээр файл, commit харагдаж байна
 - [ ] Багийн гишүүдийн үүргийг тодорхойлсон
