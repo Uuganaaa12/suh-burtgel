@@ -74,11 +74,13 @@ git pull origin main
 - **Commits** хэсэгт commit-ууд бүртгэгдсэн. Эхний commit: `9eb83c3` «Лаб 1: төслийн README болон баримт бичиг».
 - `docs/` хавтсанд лабораторийн ажлын тайлангууд, `backlog.csv` файлд бүтээгдэхүүний backlog байна.
 
-Хавсаргах дэлгэцийн зураг:
+Repository-ийн нүүр хуудас, README харагдсан байдлаар:
 
-1. Repository-ийн нүүр хуудас, README харагдсан байдлаар.
-2. Commits жагсаалт.
-3. `git --version` командын хариу.
+![Repository-ийн нүүр хуудас](img/lab1-repo.png)
+
+Commits жагсаалт:
+
+![Commits](img/lab1-commits.png)
 
 ## 6. Дүгнэлт
 
