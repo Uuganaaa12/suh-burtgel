@@ -1,119 +1,149 @@
-# Лабораторийн ажил №2 — User Story ба Backlog
+# Лабораторийн ажил №2 — Хэрэглэгчийн хэрэгцээг ойлгох ба User Story бичих
 
 ## 1. Төслийн зорилго, хамрах хүрээ
 
-**Бид ямар асуудлыг шийдэх гэж байна вэ?** СӨХ оршин суугч, машин, зогсоолын мэдээллээ тусад нь хөтөлдөг тул зогсоолын маргаан гарч, харуул гадны машиныг ялгаж чаддаггүй.
+Багаар хэлэлцээд дараах гурван асуултад хариулав.
 
-**Хэнд туслах вэ?** Оршин суугч, СӨХ-ийн гүйцэтгэх захирал, нягтлан бодогч, харуул.
+**Бид ямар асуудлыг шийдэх гэж байна вэ?**
+СӨХ сууц, машин, зогсоолын мэдээллээ дэвтэр, Excel дээр тусад нь хөтөлдөг. Машины зогсоол нь хуулиар сууц өмчлөгчдийн дундын өмчлөл боловч хэнд, ямар журмаар олгосныг хянах бичиг баримт байдаггүй. Үүнээс зогсоолын маргаан үүсдэг.
 
-**Үндсэн функцууд:** оршин суугчийн бүртгэл, машины бүртгэл, зогсоолын хуваарилалт, хаалганы хяналт, сарын төлбөр.
+**Бидний бүтээх зүйл хэнд туслах вэ?**
+Оршин суугч ба СӨХ-ийн менежерт. Оршин суугч гар утсаараа машинаа бүртгүүлж, зогсоол хүсэж, дараалалдаа хяналт тавьж, нэхэмжлэхээ харна. Төлбөрөө өөрийн банкны аппаар сууцны кодоор төлнө. Менежер вэбээр бүртгэл хөтөлж, зогсоол олгож, нэхэмжлэх үүсгэж, тайлан гаргана.
+
+**Үндсэн функцууд:**
+
+1. Сууц, зогсоолын бүртгэл.
+2. Машины бүртгэл, баталгаажуулалт.
+3. Зогсоолын түрээсийн хүсэлт ба ил тод хүлээлгийн жагсаалт.
+4. Зогсоол олгох, олголтын шийдвэрийг шалтгаантай нь хадгалах.
+5. Сарын нэхэмжлэх, банкны аппаар төлсөн төлбөрийн бүртгэл, тайлан.
+
+Гурван төрлийн хэрэглэгч: **оршин суугч**, **СӨХ-ийн менежер**, гадаад систем болох **банкны апп**.
 
 ## 2. User Story-ийн формат
 
 `As a [хэрэглэгчийн төрөл], I want [зорилго], so that [шалтгаан].`
 
+Монголчлон: [хэрэглэгчийн төрөл] нь [юу хийхийг] хүсэж байна, [ямар шалтгаанаар].
+
+Story бүрийг хэрэглэгчийн үүднээс бичив. Техникийн шийдэл, өгөгдлийн сангийн бүтцийг story-д оруулаагүй.
+
 ## 3. User Story-ууд
 
-Дипломын ажилд тодорхойлсон юз кейзүүд дээр тулгуурлан бичив. Юз кейз нь системийн үйлдлийг, User Story нь хэрэглэгчийн хүсэлтийг илэрхийлдэг тул хоёрыг зэрэгцүүлэн харуулав.
+15 story бичив. Хаалтанд дипломын ажлын юзкейсийн дугаарыг зааж, хоёр баримтыг хооронд нь уялдуулав.
 
-**US-01** (UC — нэвтрэлт)  
-As a resident, I want to log in with my phone number and password, so that only I can see my apartment data.  
-*Оршин суугч утасны дугаар, нууц үгээрээ нэвтэрч, зөвхөн өөрийн сууцны мэдээллийг харна.*
+**US-01** (бүх юзкейсийн өмнөх нөхцөл)
+As a resident, I want to log in with my Gmail (Google) account, so that only I can see my own apartment data.
+*Оршин суугч Gmail бүртгэлээрээ нэвтэрч, зөвхөн өөрийн сууцны мэдээллийг харна.*
 
-**US-02** (UC-02)  
-As a manager, I want to register a resident and link them to an apartment, so that I know who lives in each unit.  
-*Гүйцэтгэх захирал оршин суугчийг сууцтай нь холбож бүртгэнэ.*
+**US-02** (UC-01)
+As a manager, I want to register an apartment together with its resident, so that every unit has one responsible contact.
+*Менежер сууцыг оршин суугчийнх нь хамт бүртгэнэ.*
 
-**US-03** (UC-03)  
-As an owner, I want to register my tenant with a contract period, so that the tenant can use the system while renting.  
-*Сууц өмчлөгч түрээслэгчээ гэрээний хугацаатай нь бүртгүүлнэ.*
+**US-03** (UC-02)
+As a manager, I want to register each parking space with its ownership type, so that only common-property spaces go into the queue.
+*Менежер зогсоол бүрийг өмчлөлийн төрөлтэй нь бүртгэж, зөвхөн дундын өмчлөлийнхийг дараалалд оруулна.*
 
-**US-04** (UC-04)  
-As a resident, I want to register my car with its plate number, so that the guard can recognise it at the gate.  
-*Оршин суугч машинаа улсын дугаараар нь бүртгүүлнэ.*
+**US-04** (UC-03)
+As a resident, I want to register my car with its plate number, so that it can be checked and approved.
+*Оршин суугч машинаа улсын дугаараар бүртгүүлнэ.*
 
-**US-05** (UC-06)  
-As a manager, I want to approve new car registrations, so that only checked cars get access.  
-*Гүйцэтгэх захирал шинэ машины бүртгэлийг баталгаажуулна.*
+**US-05** (UC-04)
+As a manager, I want to approve or reject a registered car with a reason, so that only checked cars can rent a space.
+*Менежер бүртгүүлсэн машиныг батална эсвэл шалтгаан бичиж татгалзана.*
 
-**US-06** (UC-07)  
-As a resident, I want to request a parking space, so that I can park my car in the yard.  
-*Оршин суугч зогсоолын хүсэлт илгээнэ.*
+**US-06** (UC-05)
+As a resident, I want to request a parking space for a chosen period, so that I can park in the yard of my building.
+*Оршин суугч сонгосон хугацаагаар зогсоолын түрээсийн хүсэлт илгээнэ.*
 
-**US-07** (UC-08)  
-As a resident, I want to see my position in the parking waiting list, so that I know when my turn comes.  
+**US-07** (UC-05)
+As a resident, I want to see my position in the waiting list, so that I know when my turn comes.
 *Оршин суугч хүлээлгийн жагсаалтад хэддүгээрт байгаагаа харна.*
 
-**US-08** (UC-09)  
-As a manager, I want to assign a parking space to an apartment, so that spaces are shared in order of request.  
-*Гүйцэтгэх захирал зогсоолыг сууцад хуваарилна.*
+**US-08** (UC-05)
+As a resident, I want to see the whole waiting list, so that I can check the order is kept.
+*Оршин суугч бүх хүлээлгийн жагсаалтыг хараад дарааллыг шалгана.*
 
-**US-09** (UC-10)  
-As a resident, I want to book a guest parking space for a chosen time, so that my visitor can park.  
-*Оршин суугч зочиндоо тодорхой цагт зогсоол захиална.*
+**US-09** (UC-05, UC-06)
+As a resident with no parking space, I want first-car requests to come before additional-car requests, so that every apartment gets one space before anyone gets two.
+*Зогсоолгүй оршин суугчийн хувьд нэг дэх машины хүсэлт нэмэлт машины хүсэлтээс түрүүлнэ.*
 
-**US-10** (UC-11)  
-As a resident, I want to get a one-time access code for my guest, so that the guard can let the guest in.  
-*Оршин суугч зочиндоо нэг удаагийн нэвтрэх код авна.*
+**US-10** (UC-06)
+As a manager, I want to allocate a free space to the first request in the queue, so that the lease starts on the agreed date.
+*Менежер сул зогсоолыг дарааллын эхний хүсэлтэд олгоно.*
 
-**US-11** (UC-12)  
-As a guard, I want to check a car by its plate number, so that I can tell residents from strangers.  
-*Харуул улсын дугаараар машиныг шалгана.*
+**US-11** (UC-06)
+As a resident, I want every out-of-order allocation to be recorded with its reason, manager and date, so that the decision can be checked later.
+*Дарааллаас гадуур олгосон зогсоол бүрийг шалтгаан, шийдвэр гаргасан менежер, огнооных нь хамт бүртгэж, бүх оршин суугчдад харуулна.*
 
-**US-12** (UC-14)  
-As a guard, I want to record a parking violation with a photo, so that the manager can take action.  
-*Харуул зөрчлийг зурагтай нь бүртгэнэ.*
+**US-12** (UC-07)
+As a manager, I want the system to create monthly invoices for every apartment, so that residents know what to pay.
+*Менежер сар бүр сууц тус бүрд нэхэмжлэх үүсгэнэ.*
 
-**US-13** (UC-15)  
-As an accountant, I want to generate monthly invoices for all apartments, so that residents know what to pay.  
-*Нягтлан бодогч сар бүрийн нэхэмжлэхийг үүсгэнэ.*
+**US-13** (UC-08)
+As a resident, I want to see my invoices, including any late fee, and my payment history, so that I know how much to pay in my bank app.
+*Оршин суугч сууцныхаа нэхэмжлэхийн төлөв, задаргаа, төлбөрийн түүх, банкны аппад оруулах сууцны кодыг харна. Хугацаа хэтэрсэн нэхэмжлэхэд систем алданги бодож нэмнэ.*
 
-**US-14** (UC-16)  
-As a resident, I want to pay my invoice with QPay, so that I do not have to go to the office.  
-*Оршин суугч нэхэмжлэхээ QPay-ээр төлнө.*
+**US-14** (UC-10)
+As a manager, I want payments that residents make in their bank app to be recorded automatically, so that I do not have to match payments by hand.
+*Систем төлөгдөөгүй нэхэмжлэхийн дүнг сууцны кодоор банкны аппад харуулж, банкны апп төлбөр төлөгдсөнийг мэдэгдэхэд нэхэмжлэхийг төлөгдсөн болгон баримт үүсгэнэ.*
 
-**US-15** (UC-18)  
-As a manager, I want to publish an announcement to residents, so that everyone gets the same information.  
-*Гүйцэтгэх захирал оршин суугчдад зарлал нийтэлнэ.*
+**US-15** (UC-09)
+As a manager, I want to export a report for a chosen period to Excel, so that I can present it at the owners' meeting.
+*Менежер сонгосон хугацааны тайланг Excel файлаар татна.*
 
-## 4. INVEST шалгалт
+## 4. INVEST зарчмаар шалгасан байдал
 
-| Зарчим | Шалгасан байдал |
-|---|---|
-| Independent | Story бүр өөр story дуусахыг хүлээхгүйгээр хийгдэнэ. US-05 нь US-04-өөс хамаарах тул Backlog дээр дараалуулан байрлуулав. |
-| Negotiable | Story бүр юу хийхийг зааж байгаа ч хэрхэн хийхийг заагаагүй. Дэлгэцийн зохиомжийг Sprint-ийн үеэр хэлэлцэнэ. |
-| Valuable | Story бүр оршин суугч, захирал, харуул, нягтлангийн аль нэгэнд бодит үр өгөөжтэй. |
-| Estimable | Story бүрийг Лаб 3-д Story Point-оор үнэлэв. Хэт том нь байсангүй. |
-| Small | «Зогсоол хуваарилах», «Хүлээлгийн жагсаалтаа харах» хоёрыг тусад нь салгав. Эхэндээ нэг story байсныг INVEST-ийн дагуу хоёр болгож задлав. |
-| Testable | Story бүрийг «хийгдсэн эсэх»-ийг нүдээр шалгана. Жишээ нь US-11-д бүртгэлтэй, бүртгэлгүй хоёр дугаар оруулж дүнг харна. |
+| ID | I | N | V | E | S | T | Тэмдэглэл |
+|---|---|---|---|---|---|---|---|
+| US-01 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | Нэвтрэлт нь бусад story-гийн өмнөх нөхцөл ч тусдаа хүргэгдэнэ |
+| US-02 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-03 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-04 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-05 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-06 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | US-10-аас хамаарахгүй, хүсэлт дангаараа хадгалагдана |
+| US-07 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | Хамгийн жижиг story, үнэлгээний суурь болов |
+| US-08 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-09 | — | ✔ | ✔ | ✔ | ✔ | ✔ | US-06-гийн эрэмбийн дүрэм тул бүрэн бие даасан биш |
+| US-10 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-11 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-12 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-13 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+| US-14 | — | ✔ | ✔ | ✔ | ✔ | ✔ | Банкны аппын холболтоос хамаарна |
+| US-15 | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | |
+
+Шалгах явцад гурван story-г засав.
+
+1. «Зогсоолын систем ажиллуулах» гэсэн нэг том story нь Small шалгуурыг хангахгүй байсан тул US-06, US-07, US-10 гурав болгон задлав.
+2. «Систем ил тод байх» гэсэн story нь Estimable биш байв. Хэмжиж болохоор US-08, US-11 хоёр болгон тодорхой бичив.
+3. «Систем банкны аппын API-тай холбогдоно» гэсэн техникийн story нь Valuable шалгуурыг хангахгүй байсан тул менежерийн үүднээс US-14 болгон дахин бичив.
 
 ## 5. Бүтээгдэхүүний Backlog
 
-Backlog-ийг [backlog.csv](../backlog.csv) файлд хөтөлж, GitHub Projects дээр `To do / In Progress / Done` баганатайгаар үүсгэв.
+Backlog-ийг repository дотор [`backlog.csv`](../backlog.csv), мөн [`backlog.xlsx`](../backlog.xlsx) файлд хөтөлнө. Excel файлд «Product Backlog», «Sprint 1 Backlog» гэсэн хоёр хуудас бий. Баганууд:
 
-| ID | User Story | Priority | Notes |
-|---|---|---|---|
-| US-01 | As a resident, I want to log in with my phone number and password, so that only I can see my apartment data. | High | Must have |
-| US-02 | As a manager, I want to register a resident and link them to an apartment, so that I know who lives in each unit. | High | Must have |
-| US-03 | As an owner, I want to register my tenant with a contract period, so that the tenant can use the system while renting. | Medium |  |
-| US-04 | As a resident, I want to register my car with its plate number, so that the guard can recognise it at the gate. | High | Must have |
-| US-05 | As a manager, I want to approve new car registrations, so that only checked cars get access. | High | Must have |
-| US-06 | As a resident, I want to request a parking space, so that I can park my car in the yard. | High | Must have |
-| US-07 | As a resident, I want to see my position in the parking waiting list, so that I know when my turn comes. | Medium |  |
-| US-08 | As a manager, I want to assign a parking space to an apartment, so that spaces are shared in order of request. | High | Must have |
-| US-09 | As a resident, I want to book a guest parking space for a chosen time, so that my visitor can park. | Medium |  |
-| US-10 | As a resident, I want to get a one-time access code for my guest, so that the guard can let the guest in. | Medium |  |
-| US-11 | As a guard, I want to check a car by its plate number, so that I can tell residents from strangers. | High | Must have |
-| US-12 | As a guard, I want to record a parking violation with a photo, so that the manager can take action. | Low |  |
-| US-13 | As an accountant, I want to generate monthly invoices for all apartments, so that residents know what to pay. | High | Must have |
-| US-14 | As a resident, I want to pay my invoice with QPay, so that I do not have to go to the office. | High | Must have |
-| US-15 | As a manager, I want to publish an announcement to residents, so that everyone gets the same information. | Low |  |
+| Багана | Утга |
+|---|---|
+| ID | US-01 … US-15 |
+| User Story | Стандарт форматаар |
+| Монгол тайлбар | Багийн уулзалтад ашиглах |
+| Юзкейс | Дипломын ажлын юзкейсийн дугаар |
+| Priority | High / Medium / Low |
+| Story Point | Лаб 3-д тогтоов |
+| Status | To do / In Progress / Done |
+| Notes | MoSCoW ангилал |
 
-## Гүйцэтгэлийн шалгуур
+Эрэмбийг Product Owner тогтоов. Бүртгэл, зогсоол олголт, төлбөрийн story-нууд High, ил тод байдлын болон тайлангийн story-нууд Medium байна.
+
+## 6. Дүгнэлт
+
+Төслийн зорилго, хэрэглэгчдийг тодорхойлж, 15 User Story бичиж, INVEST зарчмаар шалгаж, гурвыг нь засав. Backlog нь repository дотор хадгалагдаж байгаа тул хоёр гишүүн хоёулаа өөрчлөлт оруулна. Энэ backlog дээр Лаб 3-ын Story Point, Sprint 1-ийн төлөвлөгөө тулгуурлана.
+
+## Биелэлтийн шалгуур
 
 - [x] Багийн хамт төслийн зорилго, үндсэн функцуудыг тодорхойлсон
 - [x] User Story-ийн зөв форматыг ашигласан
-- [x] INVEST зарчмыг шалгасан
+- [x] INVEST зарчмаар шалгаж, шаардлагатай story-г засварласан
 - [x] 15 ширхэг User Story бичсэн
-- [ ] Backlog-ийг GitHub Projects дээр үүсгэсэн
-- [x] User Story-ууд тодорхой, туршигдахуйц, үнэ цэнэтэй
+- [x] Бүтээгдэхүүний Backlog-ийг үүсгэсэн (`backlog.csv`, `backlog.xlsx`)
+- [x] User Story-ууд тодорхой, туршигдах, үнэ цэнэтэй байна
