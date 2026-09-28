@@ -46,14 +46,17 @@ Sprint 1-ийн 7 дахь өдрийн төлөв (4-р хэсгийн дасг
 
 In Progress баганад 2, Review баганад 1 карт байгаа тул хоёулаа хязгаартаа хүрсэн. Энэ үед хэн ч To Do-оос шинэ карт авахгүй.
 
-### 3.3. GitHub Projects дээр үүсгэх алхам
+### 3.3. GitHub Projects дээрх самбар
 
-1. `suh-burtgel` repository → **Projects** → **New project** → **Board** загвар.
-2. **Status** талбарын утгыг Backlog, To Do, In Progress, Review, Done болгож засна.
-3. In Progress баганын цэсээс **Set limit** → 2, Review баганад → 1.
-4. Нэмэлт талбар үүсгэнэ: **SP** (Number), **Эхэлсэн** (Date), **Дууссан** (Date).
-5. `backlog.csv`-ийн 15 story-г карт болгон нэмж, US-01 … US-07-г To Do, бусдыг Backlog баганад байрлуулна.
-6. Хоёр гишүүн хоёулаа project-д **Write** эрхтэй байна.
+Самбарыг GitHub Projects дээр үүсгэж, `suh-burtgel` repository-той холбов: <https://github.com/users/Uuganaaa12/projects/2/views/2>
+
+- **Status** талбарын утга: Backlog, To Do, In Progress, Review, Done. Багана бүрийн тайлбарт WIP хязгаар, шилжих нөхцөлийг бичив.
+- In Progress баганад 2, Review баганад 1 гэсэн хязгаарыг баганын цэсний **Set limit**-ээр тавина.
+- Нэмэлт талбар: **SP** (Number), **Эхэлсэн** (Date), **Дууссан** (Date).
+- `backlog.csv`-ийн 15 story-г карт болгон нэмэв. Sprint 1-ийн US-01 … US-07 To Do баганад, бусад нь Backlog баганад байна.
+- «Kanban самбар» (Board), «Backlog хүснэгт» (Table) гэсэн хоёр харагдацтай. Project нийтэд нээлттэй.
+
+![GitHub Projects дээрх Kanban самбар](img/github-project-board.png)
 
 ## 4. Lead time ба cycle time дасгал
 
