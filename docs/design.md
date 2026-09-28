@@ -34,7 +34,7 @@
 
 | Story | Дэлгэц |
 |---|---|
-| US-01 | ![Gmail-ээр нэвтрэх](img/wire_A-01.png) ![Бүртгэлгүй Gmail](img/wire_A-02.png) |
+| US-01 | <img src="img/wire_A-01.png" alt="Gmail-ээр нэвтрэх" width="48%"> <img src="img/wire_A-02.png" alt="Бүртгэлгүй Gmail" width="48%"> |
 | US-04 | ![Машин бүртгүүлэх](img/mock_UC03.png) |
 | US-06, US-07, US-08, US-09 | ![Зогсоол түрээслэх](img/mock_UC05.png) |
 | US-13 | ![Төлбөр харах](img/mock_UC08.png) |
