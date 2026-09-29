@@ -9,7 +9,7 @@
 | Гишүүн | Scrum үүрэг |
 |---|---|
 | Д.Ууганбаяр | Product Owner, Development Team |
-| Ц.Номинзаяа | Scrum Master, Development Team |
+| Ц.Номунзаяа | Scrum Master, Development Team |
 
 Баг хоёр хүнтэй тул код бичих ажлыг хоёулаа хийнэ. Product Owner шаардлагыг тодорхойлж, Backlog-ийн эрэмбийг гаргана. Scrum Master Sprint-ийн уулзалтуудыг зохион байгуулна.
 
