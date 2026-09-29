@@ -52,7 +52,7 @@ In Progress баганад 2, Review баганад 1 карт байгаа ту
 
 - **Status** талбарын утга: Backlog, To Do, In Progress, Review, Done. Багана бүрийн тайлбарт WIP хязгаар, шилжих нөхцөлийг бичив.
 - In Progress баганад 2, Review баганад 1 гэсэн хязгаарыг баганын цэсний **Set limit**-ээр тавина.
-- Нэмэлт талбар: **SP** (Number), **Эхэлсэн** (Date), **Дууссан** (Date).
+- Нэмэлт талбар: **SP** (Number), **Эхэлсэн** (Date), **Дууссан** (Date), **Priority** (High / Medium / Low), **MoSCoW** (Must / Should / Could / Won't have). Priority, MoSCoW-ийн утгыг Лаб 2-ын backlog-оос авав.
 - `backlog.csv`-ийн 15 story-г карт болгон нэмэв. Sprint 1-ийн US-01 … US-07 To Do баганад, бусад нь Backlog баганад байна.
 - «Kanban самбар» (Board), «Backlog хүснэгт» (Table) гэсэн хоёр харагдацтай. Project нийтэд нээлттэй.
 
