@@ -39,6 +39,7 @@
 - [Лаб 2 — User Story ба Backlog](docs/lab2.md)
 - [Лаб 3 — Story Point ба Sprint 1](docs/lab3.md)
 - [Лаб 4 — Kanban самбар ба Lean зарчим](docs/lab4.md)
+- [Лаб 5 — UML диаграм ба архитектурын загвар](docs/lab5.md)
 - [Загвар — юзкейс ба ER диаграм](docs/design.md)
 - [Бүтээгдэхүүний Backlog (CSV)](backlog.csv)
 - [Бүтээгдэхүүний Backlog (Excel)](backlog.xlsx)
