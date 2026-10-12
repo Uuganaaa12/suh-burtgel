@@ -32,6 +32,8 @@
 - Frontend, backend: тодорхойлно
 - Өгөгдлийн сан: тодорхойлно
 - Version control: Git, GitHub
+- Бизнесийн дүрэм, нэгжийн тест: Python 3.12, pytest
+- CI: GitHub Actions — push, Pull Request бүрд тест автоматаар ажиллана (`.github/workflows/ci.yml`)
 
 ## Бичиг баримт
 
