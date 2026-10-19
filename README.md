@@ -29,7 +29,7 @@
 
 ## Хэрэглэх технологи
 
-- Frontend, backend: тодорхойлно
+- Frontend, backend: Python (FastAPI)
 - Өгөгдлийн сан: тодорхойлно
 - Version control: Git, GitHub
 
