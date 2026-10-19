@@ -29,7 +29,7 @@
 
 ## Хэрэглэх технологи
 
-- Frontend, backend: тодорхойлно
+- Frontend, backend: Node.js (Express)
 - Өгөгдлийн сан: тодорхойлно
 - Version control: Git, GitHub
 
