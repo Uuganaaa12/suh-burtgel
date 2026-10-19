@@ -29,7 +29,7 @@
 
 ## Хэрэглэх технологи
 
-- Frontend, backend: Node.js (Express)
+- Frontend, backend: Python (FastAPI), frontend нь вэб болон гар утасны PWA
 - Өгөгдлийн сан: тодорхойлно
 - Version control: Git, GitHub
 
