@@ -17,8 +17,8 @@ SAMPLE = [req("R1", 9, 1), req("R2", 9, 3), req("R3", 9, 2), req("R4", 8, 30)]
 
 
 def test_ordered_by_request_date():
-    # R1-ийн сууц өмнө нь зогсоол түрээсэлдэг ч эрэмбэд нөлөөлөхгүй, огноогоороо жагсана.
-    assert ids(order_queue(SAMPLE)) == ["R4", "R1", "R3", "R2"]
+    # Санаатай буруу утга: CI улаан болохыг шалгана (Лаб 7, merge хийхгүй). Зөв нь R4, R1, R3, R2.
+    assert ids(order_queue(SAMPLE)) == ["R1", "R2", "R3", "R4"]
 
 
 def test_same_day_ordered_by_time():
