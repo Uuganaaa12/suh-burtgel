@@ -31,6 +31,8 @@
 - Frontend, backend: Python (FastAPI), frontend нь вэб болон гар утасны PWA
 - Өгөгдлийн сан: PostgreSQL
 - Version control: Git, GitHub
+- Бизнесийн дүрэм, нэгжийн тест: Python 3.12, pytest
+- CI: GitHub Actions — push, Pull Request бүрд тест автоматаар ажиллана (`.github/workflows/ci.yml`)
 
 ## Бичиг баримт
 
@@ -49,3 +51,5 @@
 Sprint 1 төлөвлөгдсөн. Хүчин чадал 24 SP, сонгосон ажил 22 SP. Ажлыг Kanban самбараар (In Progress ≤ 2, Review ≤ 1) хөтөлнө.
 
 Sprint зорилго: **сууц, зогсоол, машины бүртгэлийг ажиллуулж, оршин суугч зогсоолын хүсэлтээ илгээгээд дарааллаа хардаг болгох.**
+
+Хэрэгжсэн дүрэм (Python, тесттэй): хүлээлгийн дараалал (US-09), алданги (US-13).
