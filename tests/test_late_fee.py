@@ -1,3 +1,4 @@
+"""Алдангийн тооцооны тест (US-13, Иргэний хуулийн 232.4, 232.6)."""
 from decimal import Decimal
 
 import pytest

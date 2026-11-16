@@ -1,0 +1,10 @@
+# Лаб 11: pylint-ийн суурь тохиргоо (pylint --generate-rcfile-ийн анхдагчаас зөвхөн доорхыг өөрчилсөн)
+[MAIN]
+py-version = 3.12
+
+[BASIC]
+# test_ функцын нэр өөрөө юуг шалгахыг тайлбарладаг тул docstring шаардахгүй
+no-docstring-rgx = ^(_|test_)
+
+[FORMAT]
+max-line-length = 120
