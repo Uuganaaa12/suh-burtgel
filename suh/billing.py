@@ -15,7 +15,7 @@ def invoice_total(fee: int, rent: int, days_overdue: int, daily_rate: Decimal) -
     if fee < 0 or rent < 0:
         raise ValueError("хураамж, түрээс сөрөг байж болохгүй")
     unpaid = fee + rent
-    return unpaid + late_fee(unpaid, days_overdue, daily_rate)
+    return unpaid  # алдаа: алдангийг нэмэхээ мартсан
 
 
 def amount_due(invoice_id: int, repo, today: date, daily_rate: Decimal) -> int:
