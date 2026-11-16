@@ -1,3 +1,4 @@
+"""Хүлээлгийн дарааллын тест (US-07, ФШ-12)."""
 from datetime import datetime
 
 import pytest
@@ -6,10 +7,12 @@ from suh.queue import RentalRequest, order_queue, position
 
 
 def req(request_id, month, day, hour=9):
+    """2026 оны тухайн өдөр, цагт ирсэн хүсэлт үүсгэнэ."""
     return RentalRequest(request_id, datetime(2026, month, day, hour))
 
 
 def ids(requests):
+    """Хүсэлтүүдийн дугаарын жагсаалт."""
     return [r.request_id for r in requests]
 
 
