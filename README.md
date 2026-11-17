@@ -48,6 +48,7 @@
 - [Лаб 10 — Автомат тест, CI-д холбох](docs/lab10.md)
 - [Лаб 11 — Статик шинжилгээ, эмзэг байдал илрүүлэх](docs/lab11.md)
 - [Лаб 12 — AI хэрэгслээр код бичих, Review хийх](docs/lab12.md)
+- [Definition of Done](docs/definition-of-done.md)
 - [Загвар — юзкейс ба ER диаграм](docs/design.md)
 - [Бүтээгдэхүүний Backlog (CSV)](backlog.csv)
 - [Бүтээгдэхүүний Backlog (Excel)](backlog.xlsx)
