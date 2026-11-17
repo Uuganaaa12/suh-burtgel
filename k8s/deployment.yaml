@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: suh-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: suh-app
+  template:
+    metadata:
+      labels:
+        app: suh-app
+    spec:
+      containers:
+        - name: suh-app
+          image: suh-app:1.1
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 8000
+          readinessProbe:
+            httpGet:
+              path: /login
+              port: 8000
+            initialDelaySeconds: 5
+            periodSeconds: 5
